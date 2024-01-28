@@ -13,5 +13,7 @@
         </article>
     </div>
 
+    {{ if .Params.comments }}
     {{ template "_internal/disqus.html" . }}
+    {{ end }}
 {{ end }}
