@@ -7,10 +7,11 @@
             {{ end }}
             <small class="text-muted">Published {{ .Date.Format "January 2, 2006"  }}</small>
         </div>
-
-        <article>
-            {{ .Content }}
-        </article>
+        <div class="markdown-body">
+            <article>
+                {{ .Content }}
+            </article>
+        </div>
     </div>
 
     {{ if .Params.comments }}
