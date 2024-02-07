@@ -16,6 +16,10 @@ $fa-font-path: "../webfonts";
 }
 
 // === Custom Styles ===
+html{
+  background: #f8f9fa;
+}
+
 #content {
   width: 100%;
   max-width: 650px;
